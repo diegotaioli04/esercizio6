@@ -1,0 +1,64 @@
+﻿
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body onload="inserimento()">
+
+    <div align="center">
+        <form class="f" name="form" method="post" action="anteprima.php">
+            <fieldset class="field">
+                <legend class="titolo"> Modulo di iscrizione </legend>
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> Cognome:  </label>
+                <input class="right" name="cognome" type="text" required/>
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> Nome: </label>
+                <input class="right" name="nome" type="text" required/>
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> Sesso: </label>
+                <label class="right">
+                    <input name="sesso" type="radio" id="radio" value="Maschio" checked="checked" />
+                    Maschio
+                    <input type="radio" name="sesso" id="radio2" value="Femmina" />
+                    Femmina
+                </label>
+            </fieldset>
+            <fieldset class="field">       
+                 <label class="left"> Nazionalità: </label>  
+                <select name="nazionalita" class="sel" id="nz2" >
+
+                </select>
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> Patente: </label>
+                <label class="right">
+                    <input class="p" name="patenteA" type="checkbox" value="YES" /> cat. A
+                    <input class="p" name="patenteB" type="checkbox" value="YES" /> cat. B    
+                </label>
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> e-Mail: </label>
+                <input class="right" name="mail" type="email" required/>       
+            </fieldset>
+            <fieldset class="field">
+                <label class="left"> Password: </label>
+                <input class="right" name="password" type="password" required/>
+            </fieldset>
+            <fieldset class="last">
+                <button class="b1" name="no" type="reset" onclick="sicuro()"> Annulla </button>
+                <button class="b2" name="si" type="submit"> Conferma </button>
+            </fieldset>
+
+        </form>
+    </div>
+    <script type="text/javascript" src="formscript.js">  
+    </script>
+</body>
+</html>

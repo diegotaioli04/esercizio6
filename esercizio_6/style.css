@@ -1,0 +1,111 @@
+﻿.f, .f1 {
+    background-color: #1979e1;
+    width: 300px;
+    height: auto;
+    /*display: block;*/
+    color: white;
+}
+
+.tab{
+    width: 300px;
+    height: auto;
+    font-size: x-large;
+}
+
+.sinistra{
+    font-size: x-large;
+    color: white;
+}
+.destra{
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.righe, .lab{
+    width:330px;
+    height: 40px;
+    background-color:#f6a90a;
+    font-size:25px;
+    font-family:Arial;
+    text-align: center
+}
+.righe{
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.chiudi{
+    width:auto;
+    height: auto;
+    font-size:20px;
+    font-family:Arial;
+    border-radius: 2px;
+}
+.f {
+    background-color: #1979e1;
+}
+.f1{
+    background-color: gray;
+}
+.f2{
+    width:auto;
+    height:auto;
+}
+.logform, .logtable{
+    width: 300px;
+    height: 200px;
+    background-color: #cccbcb;
+}
+.log{
+    margin-top: 10px;
+    border:2px solid #1979e1;
+    border-radius: 4px;
+    background-color: #1979e1;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+
+.b1, .b2{
+    width:auto;
+    height: 30px;
+}
+
+.b1{
+    margin-right:10px;
+}
+
+td{
+    text-align:center;
+}
+
+.titolo{
+    font:bold;
+    font-size:xx-large;
+    text-align:left;
+    float: left;
+    display: block;
+}
+
+.field {
+    border: none;
+}
+.last{
+    border: none;
+    margin-top: 20px;
+}
+.left{
+    float:left;
+    width: 90px;
+}
+.right, .r{
+    float:left;
+}
+.r{
+    background-color:gray;
+    color: white;
+    font: bold;
+}
+.sel{
+    width:170px;
+}
